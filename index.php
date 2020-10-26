@@ -21,7 +21,7 @@
             <ul class="top-nav">
                 <li class="top-nav__item top-nav__item--school-name">Trường Đại học Thủy Lợi -TLU </li>
                 <li class="top-nav__item">(+) |</li>
-                <li class="top-nav__item"><a href="#">Login</a> | </li>
+                <li class="top-nav__item"><a href="#">Login </a> | </li>
                 <li class="top-nav__item"><a href="#">Register</a> | </li>
                 <li class="top-nav__item">Language | </li>
                 <li class="top-nav__item top-nav__flags">
