@@ -1,0 +1,71 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Topnav CSS */
+
+.top-nav__background {
+    background: #003478;
+}
+
+.top-nav {
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 5px 0;
+    font-size: 12.5px;
+    margin: 0 auto;
+}
+
+.top-nav__item {
+    margin: 0 10px;
+}
+
+.top-nav__item a {
+    color: white;
+}
+
+.top-nav__item a:hover {
+    text-decoration: none;
+}
+
+.top-nav__item--school-name {
+    margin: 0 200px;
+}
+
+.top-nav__item--school-name:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.top-nav__flags {}
+
+.top-nav__search {
+    background: white;
+}
+
+.top-nav__search input {
+    outline: none !important;
+    border: none !important;
+    padding: 1px 3px;
+}
+
+.search-icon i {
+    color: gray;
+    border: none;
+    background: transparent;
+    padding: 0 5px;
+}
+
+
+/* END Topnav CSS */
+
+;
