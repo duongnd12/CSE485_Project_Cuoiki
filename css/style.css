@@ -1,0 +1,257 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/* Topnav CSS */
+
+.top-nav__background {
+    background: #003478;
+}
+
+.top-nav {
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 5px 0;
+    font-size: 12.5px;
+    margin: 0 auto;
+}
+
+.top-nav__item {
+    margin: 0 10px;
+}
+
+.top-nav__item a {
+    color: white;
+}
+
+.top-nav__item a:hover {
+    text-decoration: none;
+}
+
+.top-nav__item--school-name {
+    margin: 0 200px;
+}
+
+.top-nav__item--school-name:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.top-nav__flags {}
+
+.top-nav__search {
+    background: white;
+}
+
+.top-nav__search input {
+    outline: none !important;
+    border: none !important;
+    padding: 1px 3px;
+}
+
+.search-icon i {
+    color: gray;
+    border: none;
+    background: transparent;
+    padding: 0 5px;
+}
+
+
+/* END Topnav CSS */
+
+
+/* Start header__logo */
+
+img.header__logo {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 547px;
+}
+
+
+/* END header__logo */
+
+
+/* START navbar__menu */
+
+.navbar__menu {
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar__menu-item {
+    margin: 0;
+}
+
+a.navbar__menu-link {
+    color: #212529;
+    /* color: black; */
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 3px;
+}
+
+.navbar__menu-item {
+    margin: 0 10px;
+    padding: 2px 0px;
+}
+
+.navbar__menu-item:hover a.navbar__menu-link {
+    background: #1a4884;
+    color: white;
+    transition: 0.4s;
+}
+
+.navbar__menu-item:first-child {
+    margin-left: 100px;
+}
+
+a.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-item__custom {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.dropdown-menu__custom {
+    background: #1a4884 !important;
+    border-radius: 0 !important;
+    margin-top: 10px;
+    border: none;
+}
+
+
+/* END navbar__menu */
+
+
+/* start caraousel__custom */
+
+.carousel__custom {
+    height: 250px;
+    /* width: 1000px; */
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.facebook__custom {
+    padding-top: 20px !important;
+    padding-left: 0px;
+}
+
+.card__custom img.card-img-top {
+    /* width: 200px !important; */
+    height: 200px !important;
+}
+
+.card__custom {
+    margin-bottom: 20px !important;
+}
+
+.card__custom a {
+    color: #003478;
+    font-weight: bold;
+}
+
+.card__custom-last a {
+    color: #003478;
+    font-weight: bold;
+}
+
+.intro {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.card__custom-last img {
+    height: 486px !important;
+    object-fit: cover;
+}
+
+.card__custom img {
+    object-fit: cover;
+}
+
+hr {
+    margin-top: 3px;
+    background: #003478;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.footer__custom {
+    background-color: #003478;
+    padding-top: 30px;
+    padding-left: 200px;
+    font-size: 12px;
+}
+
+.footer__custom-dad {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__custom-dad li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.footer__custom-dad a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__custom-dad a:hover {
+    color: orange;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.footer__bottom {
+    padding-top: 20px;
+}
+
+.container__footer {
+    width: 900px;
+    padding-left: 30px;
+}
+
+
+/* start forum__top */
+
+.forum__top {
+    display: flex;
+}
+
+
+/* end forum__top */
