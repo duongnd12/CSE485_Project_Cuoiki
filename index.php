@@ -6,8 +6,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Font awesone-->
+    <link href="icons/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -16,22 +18,25 @@
 <body>
     <header>
         <div class="top_header">
-            <nav class=" navbar navbar-expand-sm  ">
-                <a class="navbar-brand" href="#">Đại học Thủy Lợi - TLU</a>
+            
+            <nav class="navbar navbar-expand-sm  ">
+
+                <a class="nav-link" href="#">Đại học Thủy Lợi - TLU</a>
                 <!--http://www.tlu.edu.vn/-->
 
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+                <div class="collapse navbar-collapse " id="collapsibleNavId">
 
                     <ul class="navbar-nav lg-0">
                         <li class="li_text">(+) |
 
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Login </a>
+                            <a class="nav-link" href="login.php">Đăng nhập </a>
                         </li>
                         <li class="li_text">|</li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="register.php">Đăng ký</a>
                         </li>
                         <li class="li_text">|</li>
                         <li class="language">
@@ -41,209 +46,155 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <input class="form-control mr-sm-2 search" type="text" placeholder="Tìm kiếm...">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: white;">
+                            <i class="fa fa-search" style="color: white;"></i></button>
                     </form>
                 </div>
             </nav>
         </div>
 
+        <!-- MAIN HEADER -->
         <div class="main_header">
             <div class="logo">
                 <h1><a href="#"><img src="imgs/logo.jpg" width="547" height="82"></a></h1>
             </div>
-
-            <nav class="nav-main">
-                <ul class="list-nav">
-                    <li class="home hidden-xs"><a href="#"><i class="fa-home2"></i></a></li>
-                    <li class="homesp"><a href="#">Trang chủ</a></li>
+            <i class="fa fa-bars menu-toggle" onclick="toogglemenu()"></i>
 
 
-                    <li class="has-sub"><a href="#">Giới thiệu</a>
 
+            <nav class="nav nav-pills nav-pill" id="nav_head">
+
+                <ul class="nav justify-content-center menu">
+
+                    <!-- <li class="home hidden-xs"><a href="#"><i class="fa-home2"></i></a></li> -->
+                    <li class="nav-item"><a href="#">Trang chủ</a></li>
+
+                    <li class="nav-item"><a href="#">Giới thiệu</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
 
-                                <li><a href="#">Logo Khoa CNTT</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Logo Khoa CNTT</a></li>
 
-                                <li><a href="#">Lời chào mừng</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Lời chào mừng</a></li>
 
-                                <li><a href="#">Tổ
-                                        chức</a>
-                                </li>
+                                <li class="nav-item"><a href="#" class="nav-link">Tổ chức</a></li>
 
-                                <li><a href="#">Hợp
-                                        tác
-                                        liên kết</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Hợp tác liên kết</a></li>
 
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Nghiên
-                            cứu khoa
-                            học</a>
-
+                    <li class="nav-item"><a href="#">Nghiên cứu khoa học</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
 
-                                <li><a href="#">Các
-                                        đề
-                                        tài, dự án</a></li>
+                                <li><a href="#" class="nav-link">Các đề tài, dự án</a></li>
 
-                                <li><a href="#">Thông
-                                        tin
-                                        seminar</a></li>
+                                <li><a href="#" class="nav-link">Thông tin seminar</a></li>
 
-                                <li><a href="#">Công
-                                        trình công bố</a></li>
+                                <li><a href="#" class="nav-link">Công trình công bố</a></li>
 
-                                <li><a href="#">Các
-                                        phòng thí nghiệm</a></li>
+                                <li><a href="#" class="nav-link">Các phòng thí nghiệm</a></li>
 
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Đào tạo</a>
-
+                    <li class="nav-item"><a href="#">Đào tạo</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
 
-                                <li><a href="#">Đào tạo đại học</a></li>
+                                <li><a href="#" class="nav-link">Đào tạo đại học</a></li>
 
-                                <li><a href="#">Đào tạo sau đại học</a></li>
+                                <li><a href="#" class="nav-link">Đào tạo sau đại học</a></li>
 
-                                <li><a href="#">Chuẩn đầu ra</a></li>
+                                <li><a href="#" class="nav-link">Chuẩn đầu ra</a></li>
 
-                                <li><a href="#">Định hướng ngành nghề</a></li>
+                                <li><a href="#" class="nav-link">Định hướng ngành nghề</a></li>
 
-                                <li><a href="#">Mô hình đào tạo</a></li>
+                                <li><a href="#" class="nav-link">Mô hình đào tạo</a></li>
 
-                                <li><a href="#">Đề cương môn học</a></li>
+                                <li><a href="#" class="nav-link">Đề cương môn học</a></li>
 
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Bộ môn-Trung tâm</a>
-
+                    <li class="nav-item"><a href="#">Bộ môn-Trung tâm</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
 
-                                <li><a href="#">CN
-                                        phần
-                                        mềm</a></li>
+                                <li><a href="#" class="nav-link">CN phần mềm</a></li>
 
-                                <li><a href="#">Hệ
-                                        thống
-                                        thông tin</a></li>
+                                <li><a href="#" class="nav-link">Hệ thống thông tin</a></li>
 
-                                <li><a href="#">Khoa
-                                        học
-                                        máy tính</a></li>
+                                <li><a href="#" class="nav-link">Khoa học máy tính</a></li>
 
-                                <li><a href="#">Kỹ
-                                        thuật máy tính và mạng</a></li>
+                                <li><a href="#" class="nav-link">Kỹ thuật máy tính và mạng</a></li>
 
-                                <li><a href="#">Toán
-                                        học</a></li>
+                                <li><a href="#" class="nav-link">Toán học</a></li>
 
-                                <li><a href="#">Tin
-                                        học và Kỹ thuật tính toán</a></li>
+                                <li><a href="#" class="nav-link">Tin học và Kỹ thuật tính toán</a></li>
 
-                                <li><a href="#">Trung
-                                        tâm
-                                        tin học</a></li>
+                                <li><a href="#" class="nav-link">Trung tâm tin học</a></li>
 
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Sinh viên</a>
-
+                    <li class="nav-item"><a href="#">Sinh viên</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
 
-                                <li><a href="#">Tài
-                                        liệu
-                                        sinh viên</a></li>
+                                <li><a href="#" class="nav-link">Tài liệu sinh viên</a></li>
 
-                                <li><a href="#">Tổ
-                                        tư vấn
-                                        học tập</a></li>
+                                <li><a href="#" class="nav-link">Tổ tư vấn học tập</a></li>
 
-                                <li><a href="#">Biểu
-                                        mẫu ĐATN</a></li>
+                                <li><a href="#" class="nav-link">Biểu mẫu ĐATN</a></li>
 
-                                <li><a href="#">Luận
-                                        văn tốt nghiệp</a></li>
+                                <li><a href="#" class="nav-link">Luận văn tốt nghiệp</a></li>
 
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Tin
-                            tức</a>
-
+                    <li class="nav-item"><a href="#">Tin tức</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
-
-                                <li><a href="#">Sự
-                                        kiện</a></li>
-
-                                <li><a href="#">CSE
-                                        trên
-                                        báo</a></li>
-
+                                <li><a href="#" class="nav-link">Sự kiện</a></li>
+                                <li><a href="#" class="nav-link">CSE trên báo</a></li>
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Thông báo</a>
-
+                    <li class="nav-item"><a href="#">Thông báo</a>
                         <div class="nav-sub">
                             <ul class="list-sub">
-
-                                <li><a href="#">Thông
-                                        báo</a></li>
-
-                                <li><a href="#">TB
-                                        Đào
-                                        tạo</a></li>
-
-                                <li><a href="#">Nghiên
-                                        cứu khoa học</a></li>
-
-                                <li><a href="#">Tuyển
-                                        dụng</a>
-                                </li>
-
-                                <li><a href="#">Học
-                                        bổng</a></li>
-
-                                <li><a href="#">Thông
-                                        báo
-                                        khác</a></li>
-
+                                <li><a href="#" class="nav-link">Thông báo</a></li>
+                                <li><a href="#" class="nav-link">TB Đào tạo</a></li>
+                                <li><a href="#" class="nav-link">Nghiên cứu khoa học</a></li>
+                                <li><a href="#" class="nav-link">Tuyển dụng</a> </li>
+                                <li><a href="#" class="nav-link">Học bổng</a></li>
+                                <li><a href="#" class="nav-link">Thông báo khác</a></li>
                             </ul>
                         </div>
 
                     </li>
 
-                    <li class="has-sub"><a href="#">Liên hệ</a>
-
-                    </li>
+                    <li class="nav-item"><a href="#">Liên hệ</a></li>
 
                 </ul>
             </nav>
         </div>
+
 
         <div class="footer_header">
             <div class="container-fluid">
@@ -259,8 +210,8 @@
                                 </li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" alt="Carousel Bootstrap First" src="imgs/slider1.jpg" />
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 " alt="Carousel Bootstrap First" src="imgs/slider1.jpg" />
                                     <div class="carousel-caption">
                                         <h4>
                                             CNTT1
@@ -269,7 +220,8 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" alt="Carousel Bootstrap Second" src="imgs/slider2.jpg" />
+                                    <img class="d-block w-100 " alt="Carousel Bootstrap Second"
+                                        src="imgs/slider2.jpg" />
                                     <div class="carousel-caption">
                                         <h4>
                                             CNTT2
@@ -277,7 +229,7 @@
 
                                     </div>
                                 </div>
-                                <div class="carousel-item active">
+                                <div class="carousel-item ">
                                     <img class="d-block w-100" alt="Carousel Bootstrap Third" src="imgs/slider3.jpg" />
                                     <div class="carousel-caption">
                                         <h4>
@@ -309,6 +261,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
