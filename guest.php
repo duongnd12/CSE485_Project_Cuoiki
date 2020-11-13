@@ -1,3 +1,6 @@
+<?php
+include('./head.php');
+?>
 <header>
 
     <div class="top_header">
@@ -15,11 +18,11 @@
 
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="login.php">Đăng nhập </a>
+                        <a class="nav-link" href="guest.php">Home </a>
                     </li>
                     <li class="li_text">|</li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.php">Đăng ký</a>
+                        <a class="nav-link" href="login.php">Đăng xuất</a>
                     </li>
                     <!-- <li class="nav-item">
                             <a class="nav-link" href="admin.php">Quản trị</a>
@@ -40,3 +43,11 @@
         </nav>
     </div>
 </header>
+<?php
+include('./head_main.php');
+include('./main.php');
+include('./footer.php');
+?>
+
+
+

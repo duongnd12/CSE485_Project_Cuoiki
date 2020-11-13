@@ -2,7 +2,7 @@
 include('./head.php');
 include('./navbar.php');
 ?>
-
+<br>
 <div class="container text-center">
     <h4 class=" py-2">Chào mừng bạn đến với diễn đàn Công nghệ thông tin - Trường Đại học Thủy Lợi.</h4>
     <div class="font-weight-bold pb-2">

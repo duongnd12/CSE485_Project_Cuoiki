@@ -1,0 +1,23 @@
+.container {
+    margin: 0 25% 0 25%;
+}
+
+.login button {
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.imgcontainer {
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    margin-left: 25%;
+    width: 500px;
+    height: 100px;
+}

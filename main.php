@@ -1,7 +1,7 @@
 <div class="container">
         <div class="row">
-            <div class="col-9">
-                <div id="carouselExampleControls" class="carousel slide carousel__custom" data-ride="carousel">
+            <div class="col">
+                <!-- <div id="carouselExampleControls" class="carousel slide carousel__custom" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./images/s1.jpg" class="d-block w-100" alt="...">
@@ -30,7 +30,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
                 <div class="container">
                     <div class="row intro">
                         <div class="col">
