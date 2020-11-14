@@ -131,7 +131,10 @@
                         )";
 // thực thi câu $sql với biến conn lấy từ file connection.php
             mysqli_query($conn,$add);
-			echo "Đăng ký thành công. <a href='index.php' >Đăng nhập ngay</a>";
+          
+            echo "<script type='text/javascript'>alert('Đăng nhập thành công');</script>";
+            header("Location:guest.php");  
+			// echo "Đăng ký thành công. <a href='guest.php' >Đăng nhập ngay</a>";
 		}
 	}
 
